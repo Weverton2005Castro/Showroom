@@ -9,7 +9,6 @@
 
 body {
     background-color:white;
-    background-image: url('###');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -170,7 +169,8 @@ img {
 }
 
 .div {
-  background-image: url('imagens/terminaispdvs.png');
+  color: aliceblue;
+  background-image: url('https://tectoyautomacao.com.br/_next/static/media/bgPdvDesktop.aa57c9e4.png');
   padding: 6.5em 0;
   background-position: center;
   background-repeat: no-repeat;
@@ -183,4 +183,28 @@ img {
   font-weight: 300;
   color: white;
   text-align: center;
+}
+
+/* <weight>: Use a value from 300 to 800
+<uniquifier>: Use a unique and descriptive class name */
+
+.open-sans-custom {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.vt323-regular {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.abril-fatface-regular {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
 }
